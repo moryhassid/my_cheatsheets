@@ -1,18 +1,18 @@
 - [Python](#python)
-  - [Python's Data types:](#pythons-data-types)
-  - [Casting](#casting)
-    - [Integer to String](#integer-to-string)
-    - [String to Integer](#string-to-integer)
-  - [Python List](#python-list)
-  - [Python Sets](#python-sets)
-  - [Slicing](#slicing)
-    - [Skipping the n characters](#skipping-the-n-characters)
-    - [Removing the last n characters](#removing-the-last-n-characters)
-    - [Get the first n characters](#get-the-first-n-characters)
-    - [Reverse the string](#reverse-the-string)
-  - [Function](#function)
+    - [Python's Data types:](#pythons-data-types)
+    - [Casting](#casting)
+        - [Integer to String](#integer-to-string)
+        - [String to Integer](#string-to-integer)
+    - [Python List](#python-list)
+    - [Python Sets](#python-sets)
+    - [Slicing](#slicing)
+        - [Skipping the n characters](#skipping-the-n-characters)
+        - [Removing the last n characters](#removing-the-last-n-characters)
+        - [Get the first n characters](#get-the-first-n-characters)
+        - [Reverse the string](#reverse-the-string)
+    - [Function](#function)
 
-# Python 
+# Python
 
 ## Python's Data types:
 
@@ -42,10 +42,13 @@ num = int(my_new_str)
 
 ## Python List
 
-* A Python list is an ordered and changeable collection of data objects. Unlike an array, which can contain objects of a single type, a list can contain a mixture of objects.
+* A Python list is an ordered and changeable collection of data objects. Unlike an array, which can contain objects of a
+  single type, a list can contain a mixture of objects.
 
- * A list can contain objects of any data type, including another list. This makes the list data structure one of the most powerful and flexible tools in Pythonic programming.
-Defining a list in Python is really quite simple. The name of the list has to be specified, followed by the values it contains:
+* A list can contain objects of any data type, including another list. This makes the list data structure one of the
+  most powerful and flexible tools in Pythonic programming.
+  Defining a list in Python is really quite simple. The name of the list has to be specified, followed by the values it
+  contains:
 
 ``` python
 # Initiliazing a list with 5 objects
@@ -62,7 +65,8 @@ print(myList2)
 A set is a collection of unique data. That is, elements of a set cannot be duplicate. For example,
 Suppose we want to store information about student IDs. Since student IDs cannot be duplicate, we can use a set.
 In Python, we create sets by placing all the elements inside curly braces {}, separated by comma.
-A set can have any number of items and they may be of different types (integer, float, tuple, string etc.). But a set cannot have mutable elements like lists, sets or dictionaries as its elements.
+A set can have any number of items and they may be of different types (integer, float, tuple, string etc.). But a set
+cannot have mutable elements like lists, sets or dictionaries as its elements.
 Let's see an example,
 
 ``` python
@@ -80,7 +84,6 @@ print('Set of mixed data types:', mixed_set)
 ```
 
 ## Slicing
-
 
 ### Skipping the n characters
 
@@ -115,7 +118,6 @@ print(my_name[::-1])
 # output would be "dissaH yroM"
 ```
 
-
 ## Function
 
 An example for function:
@@ -126,7 +128,24 @@ def print_triangles(size):
         print(row_idx * 'X')
 ```
 
-
 ```Python
-print_triangles(size = 15)
+print_triangles(size=15)
 ```
+
+## Mathematical operations
+
+### Module
+
+```python
+res = 25 % 8 
+```
+
+Output would be: `1` (It is remainder)
+
+### Div
+
+```python
+res = 25 // 8 
+```
+
+Output would be: `3`
